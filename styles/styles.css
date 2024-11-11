@@ -158,3 +158,61 @@ body {
     font-weight: 400;
     margin: 2rem 0;   
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: block;
+        background-image: none;
+    }
+
+    .container__imagem {
+        width: 50vw;
+    }
+
+    .container__caixa {
+        margin: 4rem 3rem;
+    }
+
+    .secundario {
+        margin: 0;
+        text-align: center;
+    }
+
+    .secundario__imagem {
+        width: 65vw;
+    }
+
+    .secundario__titulo {
+        margin-bottom: 1.5rem;
+    }
+
+    .secundario_botao {
+        margin-top: 3rem;
+    }
+
+    .dispositivos_titulo {
+        font-size: 2rem;
+        padding: 1.5;
+    }
+
+    .dispositivos_lista {
+        display: block;
+    }
+
+    .rodape__logo {
+        margin: 3rem;
+    }
+
+    .rodape__lista {
+        display: block;
+        margin-bottom: 4rem;
+    }
+
+    .rodape__lista__link {
+        margin: 0.5rem;
+    }
+
+    .rodape__disclaimer {
+        margin: 2rem;
+    }
+}
